@@ -107,7 +107,7 @@ así que la app tiene que comprovar a que permiso se refiere antes de presuponer
       val cameraSelector = CameraSelector.DEFAULT_BACK_CAMERA
 
  preview hace referencia a un control-View de la Interfaz de Usuario del tipo androidx.camera.view.PreviewView
- donde la API de muestra lo que la camara enfoca( en este caso "android:id="@+id/viewFinder")
+ donde la API de muestra en pantalla lo que la camara enfoca( en este caso "android:id="@+id/viewFinder")
  ... sin que el programador tenga que preocuparse de nada mas
 
              val preview=Preview.Builder()
