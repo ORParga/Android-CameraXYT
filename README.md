@@ -37,8 +37,7 @@ Esta app tiene dos partes fundamentales:
        public static final String CAMERA = "android.permission.CAMERA";
 
  Para complicarlo un poco mas... a esta funcion solo hay que llamarla si el usuario todavía
- no ha otorgado el permiso... si tofavía no se le ha hecho la pregunta de
- si permite o no permite el uso de la camara a nuestra app
+ no ha otorgado el permiso.
  Para saber si nuestra app tiene o no acceso a la camara se debe llamar antes de nada a la
  funcion ContextCompat.checkSelfPermission()
 
