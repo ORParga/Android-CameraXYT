@@ -11,7 +11,7 @@ Esta app tiene dos partes fundamentales:
 
  para el uso de la Camara, la app utiliza la Api CameraX. que es un
  conjunto de codigo que sustituye a la antigua API "Camara"
- la api oficial para manejear las camraras de un dispositivo Android
+ la api oficial para manejear las camaras de un dispositivo Android
 
  Para poder usar la Camara en un dispositivo android, la app debe
  pedir permiso al usuario. Antiguamente, los permisos se otorgaban en
