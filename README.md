@@ -19,7 +19,7 @@ Esta app tiene dos partes fundamentales:
  especificar estos permisos en el archivo AndroidManifiest.xml.
  Hoy en dia, a pesar de que el permiso se solicita en el mismo momento
  en el que la app necesita la cámara, continua siendo necesario especificarlo
- en dicho archivo.
+ en AndroidManifest.
 
           <uses-feature android:name="android.hardware.camera.any"/>
           <uses-permission android:name="android.permission.CAMERA"/>
