@@ -91,6 +91,7 @@ así que la app tiene que comprovar a que permiso se refiere antes de presuponer
  ImageCapture:takePicture() es la funcion de la API CameraX que guarda lo que muestra la camara
  en un archivo. Pero antes se debe prepar la app para que la pantalla muestre lo que la camara
  esta enfocando.
+ 
  cameraProvider.bindToLifecycle() es la funcion que asocia la camara a una superficie en la
  pantalla para mostrar lo que la camara está enfocando... y el conjunto lo asocia también
  al ciclo de vida de la app-
@@ -148,9 +149,14 @@ así que la app tiene que comprovar a que permiso se refiere antes de presuponer
                 )
 
  Esta funcion necesita tres parametros
+ 
  outputOption - hace referencia al archivo en el que se va a guardar la foto
+ 
  MainExecutor - que hace referencia al Thread principal de la aplicacion.
+ 
  OnImageSavedCallback - funcion a la que la API de CameraX llamará cuando haya guardado la foto
+ 
+ 
 
  para hacer el programa más sencillo, esta app usa el almacenamiento "Interno" propio de la App
  ya que este tipo de almacenamiento no necesita permisos
@@ -168,7 +174,9 @@ así que la app tiene que comprovar a que permiso se refiere antes de presuponer
 
  tanto filesDir como externalMediaDirs son "atajos" de kotlin para hacer mas sencilla
  la obtencion de rutas de archivo.
+ 
  en concreto filesDir... Returns the absolute path to the directory on the filesystem where files
  created with openFileOutput are stored.
+ 
  y relativo a externalMediaDirs... Returns absolute paths to application-specific directories on
  all shared/external storage devices where the application can place media files.
