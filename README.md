@@ -33,7 +33,8 @@ Esta app tiene dos partes fundamentales:
           Constants.REQUEST_CODE_PERMISSIONS)
 
  Siendo Constants.REQUIRED_PERMISSIONS un array en el que en este caso, solo tiene un valor
- public static final String CAMERA = "android.permission.CAMERA";
+ 
+       public static final String CAMERA = "android.permission.CAMERA";
 
  Para complicarlo un poco mas... a esta funcion solo hay que llamarla si el usuario todavía
  no ha otorgado el permiso... si tofavía no se le ha hecho la pregunta de
